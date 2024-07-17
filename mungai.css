@@ -19,7 +19,7 @@
     max-width: 800px;
     padding: 20px;
  }
- #writing{
+ .writingpages{
  overflow-y: scroll;
 }
 
