@@ -24,6 +24,11 @@
     margin-top: 100px;
 }
 
+.writing{
+  overflow-y: hidden;
+}
+
+
 #link{
   text-decoration: none;
  font-family: "Spline Sans Mono", monospace;
