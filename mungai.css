@@ -19,9 +19,8 @@
     max-width: 800px;
     padding: 20px;
  }
- .writing{
- overflow-y: hidden;
-
+ #writing{
+ overflow-y: scroll;
 }
 
 #link{
