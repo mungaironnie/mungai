@@ -7,5 +7,5 @@ window.addEventListener('load', function() {
     setTimeout(function() {
         loadingScreen.style.display = 'none'; 
         websiteContent.style.display = 'block'; 
-    }, 700); 
+    }, 1500); 
 });

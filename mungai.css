@@ -2,8 +2,12 @@
     background-color: black;
     color: white;
     overflow-y: hidden;
-    overflow-x: hidden;
+    overflow-x: clip;
     padding: 20px;
+   }
+   .index{
+    max-height: 40vh;
+    margin-top: 50px;
    }
 
   .container {
