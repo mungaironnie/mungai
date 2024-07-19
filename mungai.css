@@ -5,7 +5,10 @@
     overflow-x: clip;
     padding: 20px;
    }
-
+   .index{
+    max-height: 50vh;
+   
+   }
 
   .container {
     display: flex;
