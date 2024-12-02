@@ -1,10 +1,11 @@
  body {
-    background-color: black;
+    background-color: #000000;
     color: white;
     overflow-y: hidden;
     overflow-x: clip;
     padding: 20px;
    }
+
    .index{
     max-height: 50vh;
    
@@ -23,6 +24,7 @@
     max-width: 800px;
     padding: 20px;
  }
+
  .writingpages{
  overflow-y: scroll;
  
@@ -30,10 +32,11 @@
 
 #link{
   text-decoration: none;
- font-family: "Spline Sans Mono", monospace;
+ font-family: "Spline Sans Mono", serif;
  color: rgb(155, 155, 155);
  margin-right: 10px;
 }
+
 #link:hover {
 color: whitesmoke;
 }
@@ -41,7 +44,7 @@ color: whitesmoke;
 a{
    text-decoration: none;
   color: rgb(155, 155, 155);
-  font-family: "Spline Sans Mono", monospace;
+  font-family: "Spline Sans Mono", serif;
   transition: color 0.7s ease-in-out,  text-decoration 0.5s ease-in-out;
 
 }
@@ -49,34 +52,35 @@ a:hover {
   color: whitesmoke;
 
 }
+
 ::selection {
   background: brown; /* Background color of selected text */
   color: black;      /* Text color of selected text */
 }
 
   h1{
-    font-family: "Spline Sans Mono", monospace;
+    font-family: "Roboto Serif", serif;
   } 
   h2{
-    font-family: "Spline Sans Mono", monospace;
+    font-family: "Roboto Serif", serif;
   }
   h3{
-    font-family: "Spline Sans Mono", monospace;
+    font-family: "Roboto Serif", serif;
   }
   h4{
-    font-family: "Spline Sans Mono", monospace;
+    font-family: "Roboto Serif", serif;
   }
   h5{
-    font-family: "Spline Sans Mono", monospace;
+    font-family: "Roboto Serif", serif;
   }
   h6{
-    font-family: "Spline Sans Mono", monospace;
+    font-family: "Roboto Serif", serif;
   }
   p{
-    font-family: "Spline Sans Mono", monospace;
-    font-size: medium;
-    font-weight: 500;
-    line-height: 1.6;
+    font-family: "Roboto Serif", serif;
+    font-size: large;
+    font-weight: 300;
+    line-height: 1.7;
   }
 #p1{
     color: rgb(255, 255, 255);
@@ -90,6 +94,7 @@ a:hover {
 #p4{
     color: rgb(180, 180, 180);
 }
+
 footer{
   display: flex;
   justify-content: center;
@@ -100,7 +105,7 @@ footer{
 }
 #footer{
   color: rgb(155, 155, 155);
-  font-family: "Spline Sans Mono", monospace;
+  font-family: "Roboto Serif", monospace;
   font-style: italic;
   font-size: small;
   text-decoration: none;
