@@ -32,7 +32,7 @@
 
 #link{
   text-decoration: none;
- font-family: "Spline Sans Mono", serif;
+ font-family: "Roboto Serif", serif;
  color: rgb(155, 155, 155);
  margin-right: 10px;
 }
@@ -44,7 +44,7 @@ color: whitesmoke;
 a{
    text-decoration: none;
   color: rgb(155, 155, 155);
-  font-family: "Spline Sans Mono", serif;
+  font-family: "Roboto Serif", serif;
   transition: color 0.7s ease-in-out,  text-decoration 0.5s ease-in-out;
 
 }
