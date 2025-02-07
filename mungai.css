@@ -1,59 +1,55 @@
- body {
-    background-color: #000000;
-    color: white;
-    overflow-y: hidden;
-    overflow-x: clip;
-    padding: 20px;
-   }
-
-   .index{
-    max-height: 100vh;
-    overflow-y: scroll;
-   
-   
-   }
-
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    flex-direction: column;
-    margin-top: 50px;
-  
-  } 
-  .child{
-    text-align: left;
-    max-width: 800px;
-    padding: 20px;
- }
-
- .writingpages{
- overflow-y: scroll;
- 
+body {
+  background-color: #000000;
+  color: white;
+  overflow-y: hidden;
+  overflow-x: clip;
+  padding: 20px;
 }
 
-#link{
+.index {
+  max-height: 100vh;
+  overflow-y: scroll;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.child {
+  text-align: left;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.writingpages {
+  overflow-y: scroll;
+}
+
+#link {
   text-decoration: none;
- font-family: "Roboto Serif", serif;
- color: rgb(155, 155, 155);
- margin-right: 10px;
+  font-family: "Roboto Serif", serif;
+  color: rgb(155, 155, 155);
+  margin-right: 10px;
 }
 
 #link:hover {
-color: whitesmoke;
+  color: whitesmoke;
 }
 
-a{
-   text-decoration: none;
+a {
+  text-decoration: none;
   color: rgb(155, 155, 155);
   font-family: "Roboto Serif", serif;
-  transition: color 0.7s ease-in-out,  text-decoration 0.5s ease-in-out;
-
+  transition: color 0.7s ease-in-out, text-decoration 0.5s ease-in-out;
 }
+
 a:hover {
   color: whitesmoke;
-
 }
 
 ::selection {
@@ -61,47 +57,39 @@ a:hover {
   color: black;      /* Text color of selected text */
 }
 
-  h1{
-    font-family: "Roboto Serif", serif;
-  } 
-  h2{
-    font-family: "Roboto Serif", serif;
-  }
-  h3{
-    font-family: "Roboto Serif", serif;
-  }
-  h4{
-    font-family: "Roboto Serif", serif;
-  }
-  h5{
-    font-family: "Roboto Serif", serif;
-  }
-  h6{
-    font-family: "Roboto Serif", serif;
-  }
-  p{
-    font-family: "Roboto Serif", serif;
-    font-size: small;
-    font-weight: 300;
-    line-height: 1.7;
-  }
-#p1{
-    color: rgb(255, 255, 255);
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto Serif", serif;
+  font-size: large;
 }
-#p2{
-    color: rgb(230, 230, 230);
+
+p {
+  font-family: "Roboto Serif", serif;
+  font-size: large;
+  font-weight: 300;
+  line-height: 1.7;
 }
-#p3{
-    color: rgb(205, 205, 205);
+
+#p1 {
+  color: rgb(255, 255, 255);
 }
-#p4{
-    color: rgb(180, 180, 180);
+
+#p2 {
+  color: rgb(230, 230, 230);
 }
-#indfoot{
+
+#p3 {
+  color: rgb(205, 205, 205);
+}
+
+#p4 {
+  color: rgb(180, 180, 180);
+}
+
+#indfoot {
   margin-top: 0px;
 }
 
-footer{
+footer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -109,42 +97,41 @@ footer{
   flex-direction: column;
   height: 450px;
 }
-#footer{
+
+#footer {
   color: rgb(155, 155, 155);
   font-family: "Roboto Serif", monospace;
   font-style: italic;
-  font-size: small;
+  font-size: large;
   text-decoration: none;
-  
-}
-   /* Style for loading screen */
-   .loading-screen {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #000000; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 9999;
-}
-.loading-text {
-    font-size: 48px;
-    color: rgb(155, 155, 155); 
 }
 
-.writing-pages{
+/* Style for loading screen */
+.loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.loading-text {
+  font-size: 48px;
+  color: rgb(155, 155, 155);
+}
+
+.writing-pages {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  
 }
+
 .writing-pages a {
-  margin-bottom: 10px; 
-  text-decoration: none; 
- 
+  margin-bottom: 10px;
+  text-decoration: none;
 }
-
-
