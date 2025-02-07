@@ -7,8 +7,9 @@
    }
 
    .index{
-    max-height: 50vh;
+    max-height: 100vh;
     overflow-y: scroll;
+   
    
    }
 
@@ -18,6 +19,7 @@
     align-items: center;
     margin: 0;
     flex-direction: column;
+    margin-top: 50px;
   
   } 
   .child{
@@ -79,7 +81,7 @@ a:hover {
   }
   p{
     font-family: "Roboto Serif", serif;
-    font-size: large;
+    font-size: small;
     font-weight: 300;
     line-height: 1.7;
   }
@@ -96,8 +98,9 @@ a:hover {
     color: rgb(180, 180, 180);
 }
 #indfoot{
-  margin-top: 100px;
+  margin-top: 0px;
 }
+
 footer{
   display: flex;
   justify-content: center;
@@ -112,6 +115,7 @@ footer{
   font-style: italic;
   font-size: small;
   text-decoration: none;
+  
 }
    /* Style for loading screen */
    .loading-screen {
@@ -129,6 +133,18 @@ footer{
 .loading-text {
     font-size: 48px;
     color: rgb(155, 155, 155); 
+}
+
+.writing-pages{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+}
+.writing-pages a {
+  margin-bottom: 10px; 
+  text-decoration: none; 
+ 
 }
 
 
