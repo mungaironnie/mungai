@@ -17,7 +17,7 @@ body {
   align-items: center;
   margin: 0;
   flex-direction: column;
-  margin-top: 20px;
+  margin-top:10px;
 }
 
 .child {
