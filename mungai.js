@@ -12,7 +12,7 @@ window.addEventListener('load', function() {
         setTimeout(() => {
             loadingText.style.opacity = '1';
            
-        }, 100);
+        }, 100);        
     }
     
     // Animate loading bar
