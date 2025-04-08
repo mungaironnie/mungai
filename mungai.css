@@ -53,13 +53,13 @@ body {
 
 a {
   text-decoration: none;
-  color: rgb(155, 155, 155);
+  color:   color: #8f8f8f;
   font-family: "Roboto Serif", serif;
   transition: color 0.7s ease-in-out, text-decoration 0.5s ease-in-out;
 }
 
 a:hover {
-  color: whitesmoke;
+  color: #ebebeb;
 }
 
 ::selection {
@@ -81,19 +81,19 @@ p {
 }
 
 #p1 {
-  color: rgb(255, 255, 255);
+  color: #ebebeb;
 }
 
 #p2 {
-  color: rgb(230, 230, 230);
+  color:#cccccc;
 }
 
 #p3 {
-  color: rgb(205, 205, 205);
+  color: #adadad;
 }
 
 #p4 {
-  color: rgb(180, 180, 180);
+  color: #8f8f8f;
 }
 
 #indfoot {
