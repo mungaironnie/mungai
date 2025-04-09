@@ -12,13 +12,13 @@ html {
 body {
   overflow-y: hidden;
   overflow-x: clip;
-  padding: 10em;
 
 }
 
-.index {
+.index {  
   max-height: 100vh;
   overflow-y: scroll;
+
 }
 
 .container {
@@ -27,7 +27,8 @@ body {
   align-items: center;
   margin: 0;
   flex-direction: column;
-  margin-top:10px;
+  margin-top:0px;
+  padding-top: 10vh;
 }
 
 .child {
@@ -53,7 +54,7 @@ body {
 
 a {
   text-decoration: none;
-  color:   color: #8f8f8f;
+  color: #8f8f8f;
   font-family: "Roboto Serif", serif;
   transition: color 0.7s ease-in-out, text-decoration 0.5s ease-in-out;
 }
@@ -154,7 +155,7 @@ footer {
   width: 0%;
   background-color: rgb(155, 155, 155);
   transition: width 1.5s cubic-bezier(0.165, 0.84, 0.44, 1);
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8),  /* brighter outer glow */
+  box-shadow: 0 0 15px #ffffff,  /* brighter outer glow */
               0 0 8px rgba(255, 255, 255, 0.6),    /* brighter middle glow */
               0 0 4px rgba(255, 255, 255, 0.4);    /* inner glow */
 }
